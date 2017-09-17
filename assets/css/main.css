@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:b|Open+Sans:300,400,600,700,800|Raleway");
+@font-face { font-family: Kingthings; src: url('../fonts/kingthings-foundation.regular.ttf'); } 
 
 /*
 	Road Trip by TEMPLATED
@@ -1618,10 +1619,14 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-family: 'Raleway', Arial, Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 300;
 		line-height: 1.65;
+	}
+
+	h2 {
+		font-family: 'Playfair Display', serif;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -3627,7 +3632,7 @@
 		#banner h1 {
 			font-size: 7em;
 			line-height: 1.1;
-			font-family: "Lobster", cursive;
+			font-family: 'Kingthings', cursive;
 			margin-bottom: .25em;
 			color: rgba(255, 255, 255, 0.75);
 			text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
